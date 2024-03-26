@@ -1,0 +1,16 @@
+/* Write your code here: */
+h1,h2 { /*(group)*/
+    color: blueviolet;
+}
+.box > .done { /* instead of .done we can also use p  (child) */
+    color: firebrick;
+}
+ul li { /* .box=ul   (descendent)*/
+    color: blue;
+}
+li.done { /*(chain)*/
+    color: seagreen;
+}
+ul p.done {    /*combining combiners */
+    font-size: 0.5rem;
+}
